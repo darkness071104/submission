@@ -10,7 +10,7 @@ all_df = pd.read_csv('dashboard/main_data.csv')
 st.title('Bike Sharing Dataset Dashboard')
 
 with st.sidebar:
-    st.image("https://github.com/darkness071104/submission/blob/main/dashboard/photo.jpg", width=300)
+    st.image("https://seeklogo.com/images/B/bike-logo-60D3C444D4-seeklogo.com.png")
     st.header('Bike Sharing Dataset Dashboard')
 
 
@@ -73,8 +73,3 @@ elif menu_selection == 'Perbandingan Jumlah Penyewa Sepeda Casual dan Registered
     ax3.set_xticks(perbandingan_df["year_day"])
     ax3.ticklabel_format(style='plain', axis='y')
     st.pyplot(fig3)
-
-# Conclusion section
-elif menu_selection == 'Conclusion':
-    st.header('Conclusion')
-    st.write('Your conclusion here...')
