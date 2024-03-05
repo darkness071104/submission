@@ -10,7 +10,7 @@ all_df = pd.read_csv('dashboard/main_data.csv')
 st.title('Bike Sharing Dataset Dashboard')
 
 with st.sidebar:
-    st.image("https://ouch-cdn2.icons8.com/5ojUcTG0qFIin-W97Glji…Tk1/NWYtNGQwZS05YjZh/LTU3NjBjMzA5ZDA5/MC5zdmc.png")
+    st.image("https://github.com/darkness071104/submission/blob/main/dashboard/lime-bicycle-ride.png",width=20)
     st.header('Bike Sharing Dataset Dashboard')
 
 
